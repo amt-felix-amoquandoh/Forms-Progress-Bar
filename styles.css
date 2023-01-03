@@ -29,3 +29,9 @@ body{
     overflow: hidden;
     margin: 0;
 }
+
+h1{
+    color: #212121;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
