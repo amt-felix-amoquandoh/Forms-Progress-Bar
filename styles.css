@@ -15,7 +15,7 @@
 }
 
 .circle > img{
-    height: 90px;
+    height: 4.8rem;
     width: auto;
 }
 
@@ -30,8 +30,22 @@ body{
     margin: 0;
 }
 
+.container{
+    text-align: center;
+}
+
 h1{
     color: #212121;
     margin-bottom: 30px;
     font-weight: bold;
+}
+
+.progressContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
 }
