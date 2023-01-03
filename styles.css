@@ -14,10 +14,6 @@
   --emptyBorder: grey;
 }
 
-.circle > img{
-    height: 4.8rem;
-    width: auto;
-}
 
 body{
     background-color: #ffffff;
@@ -50,6 +46,19 @@ h1{
     width: 500px;
 }
 
+.progressContainer::before{
+    background-color: var(--emptyBorder);
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
 .progress{
     background-color: var(--borderLine-fill);
     position: absolute;
@@ -60,4 +69,22 @@ h1{
     width: 0%;
     z-index: -1;
     transition: 0.4s ease;
+}
+
+.circle{
+    background-color: #fff;
+    color: #999;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    border: 3px solid #b2bec3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+
+.circle  img{
+    height: 3.4rem;
+    width: auto;
 }
