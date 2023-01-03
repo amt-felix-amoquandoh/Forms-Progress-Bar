@@ -88,3 +88,33 @@ h1{
     height: 3.4rem;
     width: auto;
 }
+
+.circle.active{
+    border-color: var(--borderLine-fill);
+}
+
+.btn{
+    background-color: var(--borderLine-fill);
+    color: white;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.btn:focus{
+  outline: 0;
+}
+
+.btn:active{
+    transform: scale(0.97);
+}
+
+.btn:disabled{
+  background-color: var(--emptyBorder);
+  cursor: not-allowed;
+}
+
