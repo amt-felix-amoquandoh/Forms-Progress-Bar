@@ -12,3 +12,8 @@
 :root {
   
 }
+
+.circle > img{
+    height: 90px;
+    width: auto;
+}
