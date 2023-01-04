@@ -1,7 +1,7 @@
 const progress  = document.getElementById("progress");
 const previous  = document.getElementById("prevButton");
 const next  = document.getElementById("nextButton");
-const circles = document.querySelectorAll(".circles");
+const circles = document.querySelectorAll(".circle");
 
 let currentActive = 1;
 
@@ -32,5 +32,5 @@ function update(){
         }
     });
 
-    const actives = document.querySelectorAll(".active");
+    const actives = document.querySelectorAll(".actives");
 }
