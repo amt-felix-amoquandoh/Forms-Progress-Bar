@@ -32,5 +32,6 @@ function update(){
         }
     });
 
-    const actives = document.querySelectorAll(".actives");
+    const actives = document.querySelectorAll(".active");
+    progress.style.width = (actives.length / circles.length) * 100 + "%";
 }
